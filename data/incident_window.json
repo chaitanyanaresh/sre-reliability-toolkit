@@ -1,0 +1,8 @@
+{
+  "incident_start": 1794924000,
+  "incident_end": 1794931200,
+  "incident_start_iso": "2026-11-17T14:00:00+00:00",
+  "incident_end_iso": "2026-11-17T16:00:00+00:00",
+  "description": "Injected incident: elevated 5xx error ratio (~6%) and degraded latency",
+  "seed": 42
+}
