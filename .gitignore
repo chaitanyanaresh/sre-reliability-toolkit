@@ -4,6 +4,7 @@ __pycache__/
 .pytest_cache/
 data/*.jsonl
 outputs/
+dashboard/data/
 terraform/.terraform/
 terraform/*.tfstate*
 terraform/.terraform.lock.hcl

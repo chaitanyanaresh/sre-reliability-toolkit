@@ -15,10 +15,7 @@ jobs:
           python-version: "3.12"
       - name: Install test dependencies
         run: pip install -r requirements.txt
+      - name: Smoke-run the pipeline (generates the outputs the dashboard tests verify against)
+        run: bash scripts/run_all.sh
       - name: Run tests
         run: python -m pytest tests/ -q
-      - name: Smoke-run the pipeline
-        run: |
-          python -m slo.generate_logs
-          python -m slo.report
-          python -m alerting.evaluate
